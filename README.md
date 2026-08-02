@@ -1,105 +1,153 @@
 # 🌍 Global Risk & Intelligence Engine
 
-![Global Risk & Intelligence Engine](./hero-banner.png)
+![Hero Banner](./hero-banner.png)
 
-> **A proactive OSINT platform that continuously collects global signals, classifies them with AI, detects emerging risks, and enables faster, data-driven incident response.**
+> **A proactive Open-Source Intelligence (OSINT) platform that continuously collects global signals, classifies them with AI, detects emerging risks, and enables faster, data-driven incident response.**
 
 ---
 
 ## Overview
 
-Global Risk & Intelligence Engine is a full-stack Open-Source Intelligence (OSINT) platform designed to automate the end-to-end intelligence lifecycle.
+Global Risk & Intelligence Engine is an AI-powered Open-Source Intelligence (OSINT) platform designed to automate the intelligence lifecycle—from signal collection to analyst response.
 
-The platform continuously monitors global news and OSINT sources, enriches every article with AI-generated intelligence, identifies affected countries and regions, removes duplicate stories, detects emerging trends, and provides analysts with actionable insights through an interactive dashboard and structured escalation workflow.
+The platform continuously monitors global news and OSINT sources, enriches every article using AI, identifies affected countries and regions, removes duplicate stories, detects emerging trends, and supports structured investigations through dashboards, maps, AI-assisted analysis, and escalation workflows.
 
-Originally built as a Google Sheets automation, the project evolved into a scalable web application capable of supporting real-time intelligence operations.
+Originally developed as a Google Sheets automation, the project evolved into a modern full-stack application capable of supporting real-time intelligence operations.
 
 ---
 
-# Public Showcase
+# 🚧 Public Showcase
 
-This repository contains a **showcase version** of the **Global Risk & Intelligence Engine**.
+This repository contains the **public showcase** of the Global Risk & Intelligence Engine.
 
-The production implementation—including the complete source code, backend services, AI pipelines, infrastructure, configurations, automation workflows, and operational datasets—is intentionally kept **private** due to confidentiality, security, and intellectual property considerations.
+The production implementation—including the complete source code, backend services, AI pipelines, infrastructure, deployment, operational datasets, automation workflows, and proprietary business logic—remains **private** due to confidentiality, security, and intellectual property considerations.
 
-This public repository focuses on demonstrating the platform's:
+This repository demonstrates the platform's:
 
-- Product design
+- Product vision
 - System architecture
 - Core capabilities
 - Intelligence workflows
-- Technical approach
 - User experience
+- Technical approach
 - Supporting documentation
 
-The included documentation, diagrams, and screenshots are representative of the platform while intentionally omitting proprietary implementation details.
+---
+
+# 🛠 Development Approach
+
+This project was developed using an **AI-assisted software engineering workflow**, combining modern AI development tools with traditional software engineering practices.
+
+Development included:
+
+- **Lovable** for rapid application development and iterative UI implementation.
+- **Prompt Engineering** for designing AI workflows, structured outputs, intelligence pipelines, and feature behavior.
+- **OpenAI** for AI-powered classification, metadata generation, and natural language capabilities.
+- **Human-led architecture**, including workflow design, product decisions, data modeling, validation, testing, and overall system engineering.
+
+AI significantly accelerated development and prototyping, while the architecture, business logic, workflows, and engineering decisions remained human-driven.
 
 ---
 
-# Highlights
+# ✨ Highlights
 
-| Feature | Description |
-|---------|-------------|
-| 🌐 **40+ Live Intelligence Sources** | Continuous monitoring of global news and OSINT feeds |
-| 🤖 **AI Classification** | Automatic categorization, geo-resolution, and severity scoring |
-| 🔄 **Story De-duplication** | Cluster related articles into a single incident |
-| 📈 **Trend & Spike Detection** | Detect emerging patterns using statistical analysis |
-| 🌍 **Interactive Risk Map** | Visualize incidents geographically |
-| 🚨 **Escalation Workflow** | Structured incident management with SLA tracking |
-| 💬 **Analyst Assistant** | Natural-language interaction with intelligence data |
-| 📑 **Google Sheets Sync** | Bidirectional synchronization with analyst workflows |
-
----
-
-# Documentation
-
-The repository includes additional documentation describing the platform.
-
-| Document | Description |
-|----------|-------------|
-| 📄 **Risk_Engine.pdf** | Product walkthrough and feature overview |
-| 📄 **Source_of_Truth_OSINT.pdf** | System architecture, workflows, and data model |
-| 🖼 **architecture-diagram.png** | High-level system architecture |
-| 🖼 **escalation-workflow.png** | Incident lifecycle |
+- 🌐 46 monitored intelligence sources
+- 🤖 AI-powered classification & scoring
+- 🌍 Country & geospatial intelligence
+- 🔄 Story de-duplication
+- 📈 Trend & anomaly detection
+- 🗺 Interactive global Risk Map
+- 🚨 Escalation workflow
+- 💬 AI Analyst Assistant
+- 📑 Google Sheets synchronization
+- 🔐 Secure authentication & role-based access
 
 ---
 
-# The Problem
+# 📸 Platform Preview
 
-Monitoring global risks manually is time-consuming, repetitive, and difficult to scale.
+## 🔐 Secure Authentication
 
-Traditional workflows often rely on spreadsheets, RSS readers, keyword searches, and manual reviews, making it challenging to identify emerging events before they become significant.
+The platform uses authenticated access to protect intelligence data, analyst workflows, and investigations.
 
-This platform automates the intelligence lifecycle—from collection to escalation—allowing analysts to spend less time gathering information and more time investigating, prioritizing, and responding.
+Only authorized users can access dashboards, maps, and AI-powered intelligence capabilities.
 
----
-
-# The Solution
-
-The platform continuously:
-
-- 📡 Collects intelligence from global OSINT and news sources
-- 🤖 Classifies every article using AI
-- 🌍 Resolves countries and regions
-- 🔄 Removes duplicate stories
-- 📈 Detects trend spikes and anomalies
-- 🗺️ Visualizes risks through dashboards and maps
-- 🚨 Supports structured investigation and escalation workflows
+![Login](./login.png)
 
 ---
 
-# Key Features
+## 📊 Intelligence Dashboard
 
-## 📡 Live Intelligence Collection
+A centralized operational dashboard providing a real-time overview of monitored signals, AI-generated risk scores, category distribution, trend analysis, and operational KPIs.
 
-- Continuous monitoring of 40+ news and OSINT sources
-- Automatic background synchronization
-- Retry logic and fallback feeds
+### Dashboard includes
+
+- Live intelligence monitoring
+- Risk score distribution
+- Critical vs High vs Medium signals
+- Category breakdown
+- Trend analysis
+- Feed synchronization
+- Operational metrics
+
+![Dashboard](./dashboard.png)
+
+---
+
+## 🌍 Interactive Risk Map
+
+A geospatial intelligence workspace for monitoring incidents across countries and regions.
+
+Analysts can explore intelligence by severity, category, geography, and timeframe to quickly identify hotspots and emerging risks.
+
+### Capabilities
+
+- Interactive world map
+- Country-level filtering
+- Severity filtering
+- Theatre summary
+- Global hotspot ranking
+- Geographic risk visualization
+
+![Risk Map](./Risk_map.png)
+
+---
+
+## 💬 AI Analyst Assistant
+
+The platform includes an AI-powered analyst workspace that allows investigators to query intelligence using natural language.
+
+Instead of manually navigating dashboards, analysts can ask questions such as:
+
+> **"Summarize the top risks from the last 7 days."**
+
+The assistant searches the intelligence database, retrieves relevant signals, and generates grounded summaries supported by the available intelligence.
+
+Example use cases:
+
+- Executive summaries
+- Country intelligence
+- Threat trends
+- Category summaries
+- Historical lookups
+- Severity analysis
+
+![Analyst Chat](./Analyst_chat.png)
+
+---
+
+# 🚀 Core Features
+
+### 📡 Live Intelligence Collection
+
+- Continuous monitoring of global OSINT and news sources
+- Background synchronization
+- Retry logic & fallback feeds
 - Feed health monitoring
 
 ---
 
-## 🤖 AI Classification
+### 🤖 AI Classification
 
 Every incoming article is automatically enriched with:
 
@@ -111,82 +159,63 @@ Every incoming article is automatically enriched with:
 
 ---
 
-## 🔄 Story De-duplication
+### 🔄 Story De-duplication
 
-The same incident is often reported by multiple publishers.
-
-The platform clusters related stories into a single incident, reducing duplicate investigations and improving signal quality.
+Clusters related stories into a single incident, reducing duplicate investigations and improving signal quality.
 
 ---
 
-## 📈 Trend & Anomaly Detection
+### 📈 Trend & Anomaly Detection
 
 Automatically identifies unusual activity using statistical analysis.
 
 Examples include:
 
-- Country-specific spikes
-- Category-specific trends
+- Country spikes
+- Category spikes
 - Emerging incidents
-- Sudden increases in reporting volume
+- Sudden reporting increases
 
 ---
 
-## 🌍 Interactive Risk Map
+### 🌍 Interactive Risk Map
 
-Visualize incidents geographically.
-
-- Country filtering
-- Regional analysis
-- Global overview
-- Interactive exploration
+Visualize global incidents geographically with country-level filtering and hotspot analysis.
 
 ---
 
-## 🚨 Escalation Workflow
+### 🚨 Escalation Workflow
 
-A Kanban-style workflow supporting:
+A Kanban-style investigation workflow supporting:
 
 - New
 - In Progress
 - Escalated
 - Resolved
 
-with ownership, priority, and SLA tracking throughout the investigation lifecycle.
+with ownership, severity, priority, and SLA tracking.
 
 ---
 
-## 💬 Analyst Assistant
+### 💬 AI Analyst Assistant
 
-Natural-language interface for exploring intelligence.
-
-Example queries:
-
-- Summarize today's incidents
-- Show recent cyber threats
-- Explain spike activity
-- Search historical events
+Natural-language interface for querying intelligence data.
 
 ---
 
-## 📑 Google Sheets Integration
+### 📑 Google Sheets Synchronization
 
-Supports bidirectional synchronization.
-
-Analysts can continue using familiar spreadsheet workflows while benefiting from automated intelligence enrichment and workflow tracking.
+Bidirectional synchronization allows analysts to continue familiar spreadsheet workflows while benefiting from automated intelligence enrichment.
 
 ---
 
-# How It Works
+# ⚙ High-Level Workflow
 
 ```text
 Global News & OSINT Sources
             │
             ▼
-     Feed Collection Layer
-            │
-            ▼
-      Article Processing
+      Feed Collection
             │
             ▼
       AI Classification
@@ -196,36 +225,36 @@ Global News & OSINT Sources
       Story De-duplication
             │
             ▼
-     Intelligence Database
+ Intelligence Database
             │
      ┌──────┴─────────────┐
      ▼                    ▼
 Google Sheets      Trend Analysis
-     │                    │
-     └────────────┬────────┘
-                  ▼
-Dashboard • Risk Map • Analyst Chat • Escalation Console
+            │
+            ▼
+Dashboard • Risk Map • Analyst Chat • Escalation
 ```
 
 ---
 
-# Architecture
+# 🏗 Architecture
 
 ![Architecture](./architecture-diagram.png)
 
 The platform follows a layered architecture:
 
-1. Collection Layer
-2. Intelligence Layer
-3. Processing Layer
-4. Analysis Layer
-5. Presentation Layer
+1. Intelligence Collection
+2. Processing & Enrichment
+3. AI Classification
+4. Intelligence Storage
+5. Analytics & Detection
+6. Visualization & Investigation
 
-Each layer is designed to transform raw information into actionable intelligence while maintaining a clear separation of responsibilities.
+Each layer transforms raw information into actionable intelligence while maintaining clear separation of responsibilities.
 
 ---
 
-# Escalation Workflow
+# 🚨 Escalation Workflow
 
 ![Escalation Workflow](./escalation-workflow.png)
 
@@ -244,86 +273,146 @@ Escalated
 Resolved
 ```
 
-Ownership, severity, SLA, and investigation history remain attached throughout the lifecycle.
+Ownership, priority, SLA, and investigation history remain attached throughout the workflow.
 
 ---
 
-# Technology Stack
+# 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| 📄 Risk_Engine.pdf | Product walkthrough and feature overview |
+| 📄 Source_of_Truth_OSINT.pdf | Architecture, workflows, and system design |
+
+---
+
+# 💻 Technology Stack
 
 | Layer | Technology |
 |--------|------------|
-| Frontend | React 19 |
-| Framework | TanStack Start |
-| Language | TypeScript |
-| Styling | Tailwind CSS v4 |
-| UI Components | shadcn/ui |
-| Backend | Supabase |
-| Database | PostgreSQL |
-| Authentication | Supabase Auth |
-| AI | OpenAI |
-| Maps | d3-geo |
-| Charts | Recharts |
-| Package Manager | Bun |
+| **Frontend** | React 19 |
+| **Framework** | TanStack Start |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4 |
+| **UI Components** | shadcn/ui |
+| **Backend** | Supabase |
+| **Database** | PostgreSQL |
+| **Authentication** | Supabase Auth |
+| **AI Integration** | OpenAI |
+| **Maps** | d3-geo |
+| **Charts** | Recharts |
+| **Package Manager** | Bun |
 
 ---
 
-# Repository Structure
+# ⚡ Development Workflow
+
+| Area | Tools & Approach |
+|------|------------------|
+| AI-assisted Development | Lovable |
+| Prompt Engineering | OpenAI GPT |
+| Frontend | React + TanStack Start |
+| Backend | Supabase + PostgreSQL |
+| UI Development | Tailwind CSS + shadcn/ui |
+| Data Visualization | d3-geo + Recharts |
+| Package Management | Bun |
+
+---
+
+# 📁 Repository Structure
 
 ```text
 .
 ├── README.md
 ├── LICENSE
+│
 ├── hero-banner.png
+├── login.png
+├── dashboard.png
+├── Risk_map.png
+├── Analyst_chat.png
+│
 ├── architecture-diagram.png
 ├── escalation-workflow.png
+│
 ├── Risk_Engine.pdf
 ├── Source_of_Truth_OSINT.pdf
+│
 └── src/
 ```
 
 ---
 
-# Project Status
+# 🗺 Roadmap
 
-🚧 **Public Showcase Repository**
+- ✅ Live OSINT ingestion
+- ✅ AI classification
+- ✅ Risk scoring
+- ✅ Country extraction
+- ✅ Story de-duplication
+- ✅ Trend analysis
+- ✅ Interactive Risk Map
+- ✅ Analyst Chat
+- ✅ Escalation workflow
+- ✅ Google Sheets integration
 
-This repository showcases the architecture, design decisions, workflows, and capabilities of the **Global Risk & Intelligence Engine**.
-
-It is intended to demonstrate the overall system design and user experience while intentionally omitting confidential implementation details.
-
-The complete production engine—including backend services, automation pipelines, AI integrations, infrastructure, and operational components—remains private.
-
----
-
-# Future Enhancements
+Planned enhancements:
 
 - Email notifications
-- PDF intelligence reports
-- Additional intelligence sources
+- Executive PDF reports
+- Multi-language intelligence
+- Advanced forecasting
+- Knowledge graph integration
+- Threat actor profiling
 - Mobile optimization
-- Advanced analytics
-- Multi-language intelligence support
-- Configurable alert rules
-- Enhanced reporting dashboards
+- Custom alert rules
 
 ---
 
-# License
+# 📌 Project Status
 
-Copyright © 2026 **Imtiaz Hussain Laskar**.
+**Public Showcase Repository**
+
+This repository showcases the architecture, workflows, user experience, and technical approach behind the Global Risk & Intelligence Engine.
+
+The production implementation—including backend infrastructure, automation pipelines, AI services, deployment, operational datasets, and proprietary **workflows—remains PRIVATE**.
+
+---
+
+# ⚠ Disclaimer
+
+The screenshots, documentation, diagrams, workflows, and supporting materials included in this repository are intended to demonstrate the platform's capabilities and design.
+
+Certain implementation details have been simplified or intentionally omitted to protect confidential information, proprietary workflows, and production infrastructure.
+
+---
+
+# 📄 License
+
+Copyright © 2026 **Imtiaz Hussain Laskar**
 
 **All rights reserved.**
 
 This repository is shared publicly for demonstration, educational, research, and portfolio purposes only.
 
-No part of this repository—including its source code, documentation, designs, diagrams, reports, images, or other materials—may be copied, reproduced, modified, distributed, published, sublicensed, or used without prior written permission from the copyright holder.
+No part of this repository—including its source code, documentation, diagrams, reports, images, or other materials—may be copied, reproduced, modified, distributed, published, sublicensed, or used without prior written permission from the copyright holder.
 
-See the **LICENSE** file for the complete license terms.
+See the **LICENSE** file for complete license terms.
 
 ---
 
-# Acknowledgements
+# 🙏 Acknowledgements
 
-Designed and developed by **Imtiaz Hussain Laskar** as an exploration of AI-assisted Open-Source Intelligence (OSINT), risk analytics, and intelligence workflow automation.
+Designed and developed by **Imtiaz Hussain Laskar**.
 
-If you found this project interesting, consider giving the repository a ⭐.
+This project explores the intersection of **Open-Source Intelligence (OSINT)**, **AI-assisted software engineering**, **prompt engineering**, **risk analytics**, and **intelligence workflow automation**.
+
+AI tools—including **Lovable** and **OpenAI**—accelerated development and prototyping, while the overall architecture, workflows, product vision, and engineering decisions were designed, validated, and refined through an iterative human-led engineering process.
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving the repository a **star**.
+
+Feedback, discussions, and ideas are always welcome.
