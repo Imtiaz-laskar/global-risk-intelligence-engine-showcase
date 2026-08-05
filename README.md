@@ -4,6 +4,8 @@
 
 An AI-powered Open-Source Intelligence (OSINT) risk monitoring and incident response platform[cite: 2]. The system continuously processes global threat signals across public feeds, extracts structured context, deduplicates redundant reports, and provides real-time situational awareness for security operations[cite: 1, 2].
 
+Project Deck: [ https://github.com/Imtiaz-laskar/global-risk-intelligence-engine-showcase/blob/main/Deck_Global_Risk_Intelligence_Engine.pdf ]
+
 ---
 
 ### 📊 Key Performance Metrics
