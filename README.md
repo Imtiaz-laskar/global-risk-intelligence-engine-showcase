@@ -118,5 +118,4 @@ Risk_Engine.pdf: Product walkthrough and feature overview.
 
 Source_of_Truth_OSINT.pdf: System design and detailed pipeline architecture.
 
-📄 License
-Distributed under the MIT License.
+Copyright (c) 2026 Imtiaz Hussain Laskar. All rights reserved.
