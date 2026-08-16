@@ -27,7 +27,7 @@
 
 <br/>
 
-📄 **Executive Deck** → [`Deck_Global_Risk_Intelligence_Engine.pdf`](https://github.com/Imtiaz-laskar/global-risk-intelligence-engine-showcase/blob/main/Deck_Global_Risk_Intelligence_Engine.pdf) &nbsp;|&nbsp; 📑 **Pipeline Design** → [`Source_of_Truth_OSINT.pdf`](./Source_of_Truth_OSINT.pdf) &nbsp;|&nbsp; 🗂️ **Product Walkthrough** → [`Risk_Engine.pdf`](./Risk_Engine.pdf)
+📄 **Executive Deck** → [`Deck_Global_Risk_Intelligence_Engine.pdf`](https://github.com/Imtiaz-laskar/global-risk-intelligence-engine-showcase/blob/main/Deck_Global_Risk_Intelligence_Engine.pdf) &nbsp;|&nbsp; 📑 **Pipeline Design** → [`Source_of_Truth_OSINT.pdf`](./Source_of_Truth_OSINT.pdf) &nbsp;|&nbsp; 🗂️ **Platform Walkthrough** → [`Risk_Engine.pdf`](./Risk_Engine.pdf)
 
 <br/>
 
